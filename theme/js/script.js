@@ -159,30 +159,32 @@ function cargarMenu() {
 }
 /* SEARCH */
 function buscarYRedirigir(idioma) {
-  var searchTerm = document.getElementById('q').value;
-  // Realizar la búsqueda con el término searchTerm
-  // Aquí puedes ejecutar el código de búsqueda que tienes, o cualquier otra lógica de búsqueda que prefieras
-  // Después de obtener los resultados, los almacenamos en la caché del navegador
+  var searchTerm = document.getElementById('searchInput').value.trim();
   var results = obtenerResultadosDeBusqueda(searchTerm);
   localStorage.setItem('searchResults', JSON.stringify(results));
   // Redireccionar a la página de búsqueda
-  if(idioma==="es"){
-    window.location.href = "/search.html";
-  }else{
-    window.location.href = "/search_en.html";
-  }
+  window.location.href = idioma === "es" ? "/resultadosBusqueda.html" : "/en/resultadosBusqueda-en.html";
 }
 
 function obtenerResultadosDeBusqueda(searchTerm) {
-  // Esta función debe obtener los resultados de búsqueda de tu contenedor
-  var results = [];
-  var listItems = document.getElementById('results-container').getElementsByTagName('li');
-  for (var i = 0; i < listItems.length; i++) {
-      var listItem = listItems[i];
-      results.push({
-          title: listItem.textContent,
-          url: listItem.querySelector('a').getAttribute('href')
-      });
+  // Asegúrate de que idx está definido y listo para usar.
+  if (idx && searchTerm) {
+    var searchResults = idx.search(searchTerm).map(result => {
+      // Encuentra los documentos que coincidan con los títulos referenciados en los resultados de la búsqueda.
+      return data.find(doc => doc.title === result.ref);
+    });
+
+    return searchResults.map(item => ({
+      title: item.title,
+      url: item.url
+    }));
+  } else {
+    return [];
   }
-  return results;
-} 
+}
+
+//Funcion volver arriba
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}

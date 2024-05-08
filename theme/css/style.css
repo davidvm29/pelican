@@ -130,15 +130,7 @@ body {
     }
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   /* Estilo para párrafos */
   p {
     font-size: 16px;
@@ -1668,3 +1660,13 @@ body {
     width: auto;
     display: inline;
   }
+
+.icono-compartir i {
+    color: #808080; /* Gris */
+}
+
+.share-links p{
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  display: inline;
+}

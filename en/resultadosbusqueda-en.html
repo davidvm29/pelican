@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>UCO-i02vimod</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lunr/lunr.min.js"></script>
+</head>
+<body>
+  <div id="top-bar">
+					<ul id="idiomas">
+						<li class="activo"><a href="/resultadosBusqueda.html">ES</a></li>
+						<li><a href="/en/resultadosBusqueda-en.html">EN</a></li>
+					</ul>
+					<div id="buscar">
+            <a class="boton-buscar"></a>
+            <label for="q" style="display:none">Buscar</label>
+            <input type="text" size="10" placeholder="" name="q" id="searchInput">
+            <input type="button" value="Search" class="btn-buscar" id="searchButton" onclick="buscarYRedirigir('en')">
+        </div>
+        <div id="searchResults" class="nav justify-content-center"></div>
+      </div>
+
+  <!-- Botones de enlace a páginas externas -->
+  <div class="external-buttons">
+    <a href="/index.html"><img src="/theme/images/asset0.png" alt="Botón 1"></a>
+    <a href="/acercanuevo.html"><img src="/theme/images/asset1.png" alt="Botón 2"></a>
+
+  </div>
+
+  <nav class="row" id="menu-principal"><div id="menu-button" style="display: block;" bis_skin_checked="1">Menú</div>
+    <ul class="open">
+      <li class="has-sub"><span class="submenu-button"></span><a href="#">Conoce la UCO</a>
+        <ul style="display: block;">
+          <li><a href="historia_es.html">Historia</a></li>
+          <li class="has-sub"><span class="submenu-button"></span><a href="">Organización institucional</a>
+            <ul style="display: block;">
+              <li><a href="organizacion-institucional-equipo-gobierno.html">Equipo de Gobierno</a></li>
+              <li><a href="organizacion/consejogobierno">Consejo de Gobierno</a></li>
+              <li><a href="organizacion/secretariageneral/claustro-universidad">Claustro</a></li>
+              <li><a href="organizacion/secretariageneral">Secretaría General</a></li>
+              <li><a href="gerencia">Gerencia</a></li>
+              <li><a href="servicios/asesoriajuridica">Asesoría Jurídica</a></li>
+              <li><a href="organizacion/defensor_universitario">Defensoría Universitaria</a></li>
+              <li><a href="https://consejosocialuco.es/" target="_blank">Consejo Social</a></li>
+            </ul>
+          </li>
+          <li><a href="gestion_administrativa.html">Gestión administrativa</a></li>
+          <li><a href="organizacion/secretariageneral/normativa">Normativa</a></li>
+          <li class="has-sub"><span class="submenu-button"></span><a href="#">Centros, campus y departamentos</a>
+            <ul style="display: block;">
+              <li><a href="organiza/centros/veterinaria/">Facultad de Veterinaria</a></li>
+              <li><a href="organiza/centros/etsiam/">Escuela Técnica Superior de Ingeniería Agronómica y de Montes</a></li>
+              <li><a href="organiza/centros/medicinayenfermeria/">Facultad de Medicina y Enfermería</a></li>
+              <li><a href="organiza/centros/ciencias/">Facultad de Ciencias</a></li>
+              <li><a href="organiza/centros/filosofia/">Facultad de Filosofía y Letras</a></li>
+              <li><a href="organiza/centros/derecho/">Facultad de Derecho y Ciencias Económicas y Empresariales</a></li>
+              <li><a href="organiza/centros/educacion/">Facultad de Derecho y Ciencias Económicas y Empresariales</a></li>
+              <li><a href="organiza/centros/eps/">Escuela Politécnica Superior de Córdoba</a></li>
+              <li><a href="organiza/centros/rlaborales/">Facultad de Ciencias del Trabajo</a></li>
+              <li><a href="organiza/centros/EPSBelmez/">Escuela Politécnica Superior de Belmez</a></li>
+              <li><a href="estudios/idep/">Instituto de Estudios de Posgrado</a></li>
+              <li><a href="http://www.uco.es/sagradocorazon/" target="_blank">Centro de Magisterio "Sagrado Corazón" (Centro Adscrito)</a></li>
+              <li><a href="https://www.uco.es/organiza/centros/fisidec/" target="_blank">Centro Universitario Fisidec (Centro Adscrito)</a></li>
+              <li><a href="catedrasyaulas/intergeneracional/" target="_blank">Centro Intergeneracional 'Profesor Francisco Santisteban'</a></li>
+              <li><a href="departamentos.html" target="_blank"> Departamentos</a></li>
+              <li><a href="informacion/campus_rabanales/" target="_blank">Campus de Rabanales</a></li>
+            </ul>
+          </li>
+          <li><a href="servicios/sepa//es/biodiversidad#tab">Biodiversidad en Rabanales</a></li>
+          <li><a href="internacional/movilidad/internacional-factsandfigures">Facts and figures</a></li>
+          <li><a href="ucomapa.html">Cómo llegar</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><span class="submenu-button"></span><a href="#">Información para estudiantes</a>
+        <ul style="display: block;">
+          <li><a href="pie/">Portal de Información para Estudiantes (PIE)</a></li>
+          <li><a href="docencia/grados/">Grados</a></li>
+          <li><a href="estudios/idep/">Másteres y Doctorado</a></li>
+          <li><a href="estudios/idep/menu-formacion-permanente">Títulos propios</a></li>
+          <li><a href="https://www.uco.es/organiza/centros/cefem/">Formación continua, Empleabilidad y Emprendimiento</a></li>
+          <li><a href="https://www.uco.es/transferencia/ucoprem2">Prácticas y Empleo</a></li>
+          <li><a href="servicios/sega/">Servicios de Gestión Académica</a></li>
+          <li><a href="catedras_y_aulas.html">Cátedras, aulas y fundaciones</a></li>
+          <li><a href="https://ucodigital.uco.es/">UCOdigital</a></li>
+          <li><a href="https://www.campusandaluzvirtual.es/">Campus Andaluz Virtual</a></li>
+          <li><a href="https://www.juntadeandalucia.es/economiainnovacionyciencia/sguit/?q=grados">Preinscripción</a></li>
+          <li><a href="internacional/extranjeros">Alumnos Internacionales</a></li>
+          <li><a href="servicios/informatica/tesis">eTesis</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><span class="submenu-button"></span><a href="#">Docencia</a>
+        <ul style="display: block;">
+          <li><a href="gestion/coordinacion_docencia">Unidad de Inspección</a></li><a href="gestion/coordinacion_docencia">
+          </a><li><a href="gestion/coordinacion_docencia"></a><a href="organizacion/calidad/innovacioneducativa">Formación e Innovación Docente</a></li><a href="organizacion/calidad/innovacioneducativa">
+          </a><li><a href="organizacion/calidad/innovacioneducativa"></a><a href="http://www.uco.es/poling/">Política lingüística</a></li><a href="http://www.uco.es/poling/">
+          </a><li><a href="http://www.uco.es/poling/"></a><a href="organizacion/calidad">Calidad</a></li><a href="organizacion/calidad">
+          </a><li><a href="organizacion/calidad"></a><a href="http://moodle.uco.es/moodlemap/">Moodle</a></li>
+          <li><a href="gestion/sigma" target="_blank">SIGMA Campus Docente</a></li>
+          <li><a href="eguiado/" target="_blank">E-guiado</a></li>
+          <li><a href="https://www.gestion.uco.es/ucomunidad" target="_blank">UCOMUNIDAD</a></li>
+          <li><a href="https://www.uco.es/sra">Sistema de Reserva de Aulas</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><span class="submenu-button"></span><a href="#">Investigación</a>
+        <ul style="display: block;">
+          <li><a href="investigacion/portal/">Portal de Investigación</a></li>
+          <li><a href="internacional/proyectosinternacionales">Proyectos Internacionales</a></li>
+          <li><a href="investigacion/portal/scai">Servicio Central de Apoyo a la Investigación</a></li>
+          <li><a href="investigacion/portal/saex">Servicio de Animales de Experimentación</a></li>
+          <li><a href="investigacion/ucci">Unidad de Cultura Cientifica y de la Innovación</a></li>
+          <li><a href="grupos-investigacion.html">Grupos de Investigación</a></li>
+          <li><a href="investigacion/portal/HRS4R">HRS4R</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><span class="submenu-button"></span><a href="#">Transferencia</a>
+        <ul style="display: block;">
+          <li><a href="https://www.uco.es/transferencia">Portal de Transferencia</a></li>
+          <li><a href="https://www.uco.es/transferencia/plan-propio">Plan Propio de Transferencia Galileo</a></li>
+          <li class="has-sub"><span class="submenu-button"></span><a href="#">Oferta Tecnológica
+            </a><ul style="display: block;"><a href="#">
+              </a><li><a href="#"></a><a href="https://www.uco.es/transferencia/oferta-tecnologica"></a></li>
+              <li><a href="https://www.uco.es/transferencia/ofertas-tecnologicas">Documento resumen de oferta tecnológica de la UCO</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><span class="submenu-button"></span><a href="#">Colaboración con empresas</a>
+            <ul style="display: block;">
+              <li><a href="https://www.uco.es/transferencia/colaboracion-con-empresas/contratos-universidad-empresa">Contratos Universidad Empresa</a></li>
+              <li><a href="https://www.uco.es/transferencia/colaboracion-con-empresas/creacion-de-ebcs"></a></li>
+              <li><a href="https://www.uco.es/transferencia/colaboracion-con-empresas/proyectos-colaborativos">Proyectos Colaborativos</a></li>
+            </ul>
+          </li>
+          <li><a href="https://www.uco.es/transferencia/catedras">Cátedras Universidad-Empresas</a></li>
+          <li class="has-sub"><span class="submenu-button"></span><a href="#">¿Quién es quién en tareas de transferencia?		</a>		
+            <ul style="display: block;">
+              <li><a href="transferencia/quien-es-quien-en-las-tareas-de-transferencia-de-la-uco">Entrevistas a grupos de investigación de la UCO</a></li>	
+              <li><a href="transferencia/videos-investigadores-biotecnologia">Vídeos de investigadores relacionados con el área de la Biotecnología</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="has-sub"><span class="submenu-button"></span><a href="#">Servicios y vida universitaria</a>
+        <ul style="display: block;">
+          <li><a href="https://www.ucoshop.es/">Tienda UCO online</a></li>
+          <li><a href="servicios/alojamiento/">Alojamiento</a></li>
+          <li><a href="gestion/archivoyregistro">Archivo Registro y Administración Electrónica</a></li>
+          <li><a href="vidauniversitaria/cooperacion/">Área de Cooperación y Solidaridad</a></li>
+          <li><a href="gestion/gestioneconomica">Gestión Económica</a></li>
+          <li><a href="servicios/sad/">Área de Inclusión</a></li>
+          <li><a href="servicios/biblioteca/">Biblioteca</a></li>
+          <li><a href="organizacion/calidad/">Calidad</a></li>
+          <li><a href="gestion/contratacion">Contratación y Patrimonio</a></li>
+          <li><a href="cultura/">UCOCultura</a></li>
+          <li><a href="https://www.uco.es/deportes">Deportes</a></li>
+          <li><a href="servicios/actualidad/">Gabinete de Comunicación</a></li>
+          <li><a href="http://www.uco.es/idiomas/">UCOidiomas</a></li>
+          <li><a href="vidauniversitaria/igualdad/">Igualdad</a></li>
+          <li><a href="gestion/contratacion/ofertas">Ofertas Comunidad Universitaria</a></li>
+          <li><a href="informacion_webs.html">Otras webs y blogs</a></li>
+          <li><a href="https://www.uco.es/transferencia/ucoprem2">Prácticas y empleo</a></li>
+          <li><a href="https://www.uco.es/servicios/prevencion/es/inicio-promocion-salud">Promoción de la Salud</a></li>
+          <li><a href="organizacion/protocolo/">Protocolo</a></li>
+          <li><a href="http://www.uco.es/servicios/ucopress">Publicaciones</a></li>
+          <li><a href="gestion/virtual">Secretaría Virtual</a></li>
+          <li><a href="gestion/controlinterno">Servicio de Control Interno</a></li>
+          <li><a href="servicios/informatica/">Servicio de Informática</a></li>
+          <li class="has-sub"><span class="submenu-button"></span><a href="#">Servicio de Prevención y Protección</a>
+          <ul style="display: block;">
+          <li><a href="servicios/prevencion/">Prevención de Riesgos y Protección Radiologica</a></li>
+          <li><a href="servicios/sepa/">Protección Ambiental</a></li>
+          </ul>
+          </li>
+          <li><a href="http://ucodigital.uco.es/">UCOdigital</a></li>
+          <li><a href="gestion/gestioneconomica/ucompras-uco">UCOMPRAS</a></li>
+          <li><a href="http://uco.es/uacds">Unidad de Apoyo Tecnológico a Centros, Departamentos y Servicios</a></li>
+          <li><a href="https://www.uco.es/servicios/prevencion/es/inicio-unap">Unidad de Atención Psicológica</a></li>
+          <li><a href="servicios/serviciosgenerales/">Unidad de Servicios Generales</a></li>
+          <li><a href="gestion/unidadtecnica">Unidad Técnica</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><span class="submenu-button"></span><a href="#">Internacional</a>
+        <ul style="display: block;">
+          <li><a href="internacional/movilidad/">Programas de movilidad</a></li><a href="internacional/movilidad/">
+          </a><li><a href="internacional/movilidad/"></a><a href="internacional/proyectosinternacionales">Proyectos Internacionales</a></li><a href="internacional/proyectosinternacionales">
+          </a><li class="has-sub"><span class="submenu-button"></span><a href="internacional/proyectosinternacionales"></a><a href="#">Contacto e información para extranjeros
+          </a><ul style="display: block;"><a href="#">
+            </a><li><a href="#"></a><a href="internacional/extranjeros">Alumnos Internacionales</a></li>
+          </ul>
+          </li>
+          <li><a href="http://uco.es/internacional/convenios/es/">Convenios Internacionales</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+<!-- Sección principal -->
+<section id="principal" class="row">
+    <!-- Contenido -->
+    <section id="contenido" class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+
+      <div>
+          <h2 class="resultados_busqueda">Resultados de la búsqueda</h2>
+          <!-- Contenedor de resultados debajo del título -->
+          <div class="item-busqueda">
+            <ul id="results-container"></ul>
+          </div>
+      </div>
+    </section>
+    <section id="interes" class="col-lg-2 interesCol" style="display: block;">
+        <h3>DE INTERÉS</h3>
+        <div class="row">
+            <div class="item col-lg-12">
+                <a href="https://sede.uco.es/" previewlistener="true"><span style="display: block; padding: 15px 30px 15px 30px;height: 70px; width: 183px;  ">sede electrónica </span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item col-lg-12">
+                <a href="transparencia-y-responsabilidad-social.html" previewlistener="true"><span style="display: block; margin-bottom: 5px; width: 183px;">transparencia y resp. social </span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item col-lg-12">
+                <a href="https://sede.uco.es/bouco/" previewlistener="true"><span style="display: block; margin-bottom: 5px; padding: 15px 50px 15px 30px;">BOUCO </span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item col-lg-12">
+                <a href="facturae" previewlistener="true"><span style="display: block; margin-bottom: 5px; padding: 15px 30px 15px 30px;">factura electrónica </span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item col-lg-12">
+                <a href="gestion/laboral" previewlistener="true"><span style="display: block; margin-bottom: 5px; padding: 15px 50px 40px 30px;">portal del personal </span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item col-lg-12">
+                <a href="http://www.ceia3.es/" previewlistener="true"><span style="display: block; margin-bottom: 5px; padding: 15px 70px 15px 30px;">ceiA3</span></a>
+            </div>
+        </div>
+    </section>
+</section>
+<footer class="container-fluid footer-bar text-center custom-footer-background pt-4 pb-4">
+    <div class="row align-items-center">
+        <div class="col-md-12 menu-footer mb-3">
+            <a href="mapaweb.html">Mapa Web</a> ·
+            <a href="http://www.uco.es/servicios/actualidad/accesibilidad" target="_blank">Accesibilidad</a> ·
+            <a href="contacto.html">Contacto</a> ·
+            <a href="gestion/virtual/directorio-uco" target="_blank">Buscar Personas</a> ·
+            <a href="https://www.uco.es/correo">Correo</a> ·
+            <a href="https://www.uco.es/organizacion/areasecretariageneral/transparencia/integridad-y-buen-gobierno/" target="_blank">Sistema de Integridad UCO</a> · 
+            <a href="organizacion/secretariageneral/proteccion-de-datos">Protección de Datos</a>
+        </div>
+        <div class="col-md-12 logos-footer mb-3">
+            <a href="index.html" class="logo-footer"><img src="/theme/images/asset 22.png" width="50" height="50" alt="Universidad de Córdoba" title="Universidad de Córdoba"></a>
+            <a href="http://www.ceia3.es" target="_blank" class="logo-footer"><img src="/theme/images/asset 23.png" width="50" height="50" alt="Universidad de Córdoba" title="Universidad de Córdoba"></a>
+            <a href="https://www.uco.es/resiliencia" target="_blank" class="logo-footer"><img src="/theme/images/asset 24.jpeg" height="50" alt="Universidad de Córdoba" title="Fondos PRTR"></a>
+            <a href="https://www.bancosantander.es/es/universidades" target="_blank" class="logo-footer"><img src="/theme/images/asset 25.jpeg" height="50" alt="Universidad de Córdoba" title="Santander Universidades"></a>
+            <a href="https://www.uco.es/investigacion/portal/HRS4R" class="logo-footer"><img src="/theme/images/asset 26.png" height="50" alt="HR" title="HR"></a>
+            <a href="http://www.uco.es/zonacardioasegurada/" target="_blank" class="logo-footer logo-zonacardio"><img src="/theme/images/asset 27.png" width="100px" alt="Zona Cardio asegurada" title="Zona Cardio Asegurada - Universidad de Córdoba"></a>
+        </div>
+
+        <div class="col-md-12 redes-sociales">
+          <ul class="list-inline mb-3">
+            <li class="list-inline-item"><a href="https://www.facebook.com/universidadcordoba" target="_blank" rel="nofollow" class="icon-facebook"></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/Univcordoba" target="_blank" rel="nofollow" class="icon-twitter"></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/company/universidad-de-cordoba" target="_blank" rel="nofollow" class="icon-linkedin"></a></li>
+            <li class="list-inline-item"><a href="http://www.uco.es/servicios/actualidad/?format=feed" target="_blank" rel="nofollow" class="icon-rss"></a></li>
+            <li class="list-inline-item"><a href="https://www.flickr.com/photos/univcordoba/" target="_blank" rel="nofollow" class="icon-flickr"></a></li>
+            <li class="list-inline-item"><a href="https://www.youtube.com/user/univcordoba" target="_blank" rel="nofollow" class="icon-youtube"></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/universidaddecordoba/" target="_blank" rel="nofollow" class="icon-instagram"></a></li>
+            <li class="list-inline-item"><a href="https://www.tiktok.com/@universidadcordoba?lang=es" target="_blank" rel="nofollow" class="icon-tiktok"></a></li>
+        </ul>
+        </div>
+    </div>
+</footer>
+<script>
+  var idioma = 'en'
+</script>
+
+<script src="/theme/js/script.js"></script>
+<script src="/theme/js/search.js" type="text/javascript"></script>
+<script src="/theme/js/enlacesBusqueda.js"></script>
+</body>
+</html>
