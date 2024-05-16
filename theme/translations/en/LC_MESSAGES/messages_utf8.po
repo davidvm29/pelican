@@ -1,0 +1,532 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "DE INTERES"
+msgstr "OF INTEREST"
+
+msgid "sede electrónica"
+msgstr "electronic headquarters"
+
+msgid "transparencia y resp. social"
+msgstr "transparency and social responsibility"
+
+msgid "BOUCO"
+msgstr "BOUCO"
+
+msgid "factura electronica"
+msgstr "electronic invoice"
+
+msgid "portal del personal"
+msgstr "staff portal"
+
+msgid "ceiA3"
+msgstr "ceiA3"
+
+msgid "Buscar"
+msgstr "Search"
+
+msgid "Historia"
+msgstr "History"
+
+msgid "Conoce la UCO"
+msgstr "Know UCO"
+
+msgid "Organización institucional"
+msgstr "Institutional organization"
+
+msgid "Equipo de Gobierno"
+msgstr "Government Team"
+
+msgid "Consejo de Gobierno"
+msgstr "Government Council"
+
+msgid "Claustro"
+msgstr "Claustro"
+
+msgid "Secretaria General"
+msgstr "General Secretariat"
+
+msgid "Gerencia"
+msgstr "Management"
+
+msgid "Asesoria Juridica"
+msgstr "Legal Advice"
+
+msgid "Defensoria Universitaria"
+msgstr "University Ombudsman"
+
+msgid "Consejo Social"
+msgstr "Social Council"
+
+msgid "Gestion administrativa"
+msgstr "Administrative Management"
+
+msgid "Normativa"
+msgstr "Regulations"
+
+msgid "Centros, campus y departamentos"
+msgstr "Centers, Campuses, and Departments"
+
+msgid "Facultad de Veterinaria"
+msgstr "Faculty of Veterinary Medicine"
+
+msgid "Escuela Tecnica Superior de Ingenieria Agronomica y de Montes"
+msgstr "Higher Technical School of Agronomic and Forestry Engineering"
+
+msgid "Facultad de Medicina y Enfermeria"
+msgstr "Faculty of Medicine and Nursing"
+
+msgid "Facultad de Ciencias"
+msgstr "Faculty of Sciences"
+
+msgid "Facultad de Filosofia y Letras"
+msgstr "Faculty of Philosophy and Letters"
+
+msgid "Facultad de Derecho y Ciencias Economicas y Empresariales"
+msgstr "Faculty of Law and Economics"
+
+msgid "Escuela Politecnica Superior de Cordoba"
+msgstr "Higher Polytechnic School of Cordoba"
+
+msgid "Facultad de Ciencias del Trabajo"
+msgstr "Faculty of Labor Sciences"
+
+msgid "Instituto de Estudios de Posgrado"
+msgstr "Institute of Postgraduate Studies"
+
+msgid "Centro de Magisterio \"Sagrado Corazón\" (Centro Adscrito)"
+msgstr "Center of Teaching 'Sagrado Corazón' (Affiliated Center)"
+
+msgid "Centro Universitario Fisidec (Centro Adscrito)"
+msgstr "University Center Fisidec (Affiliated Center)"
+
+msgid "Centro Intergeneracional 'Profesor Francisco Santisteban'"
+msgstr "Intergenerational Center 'Professor Francisco Santisteban'"
+
+msgid "Departamentos"
+msgstr "Departments"
+
+msgid "Campus de Rabanales"
+msgstr "Rabanales Campus"
+
+msgid "Biodiversidad en Rabanales"
+msgstr "Biodiversity in Rabanales"
+
+msgid "Información para estudiantes"
+msgstr "Information for Students"
+
+msgid "Portal de Información para Estudiantes (PIE)"
+msgstr "Student Information Portal (PIE)"
+
+msgid "Grados"
+msgstr "Degrees"
+
+msgid "Másteres y Doctorado"
+msgstr "Master's and Doctorate"
+
+msgid "Títulos propios"
+msgstr "Own Titles"
+
+msgid "Formación continua, Empleabilidad y Emprendimiento"
+msgstr "Continuous Training, Employability, and Entrepreneurship"
+
+msgid "Prácticas y Empleo"
+msgstr "Internships and Employment"
+
+msgid "Servicios de Gestión Académica"
+msgstr "Academic Management Services"
+
+msgid "Cátedras, aulas y fundaciones"
+msgstr "Chairs, classrooms, and foundations"
+
+msgid "Campus Andaluz Virtual"
+msgstr "Andalusian Virtual Campus"
+
+msgid "Preinscripción"
+msgstr "Pre-registration"
+
+msgid "Alumnos Internacionales"
+msgstr "International Students"
+
+msgid "Actualidad Universitaria"
+msgstr "University News"
+
+msgid "Agenda"
+msgstr "Agenda"
+
+msgid "Vídeos"
+msgstr "Videos"
+
+msgid "Ciencia en la UCO"
+msgstr "Science at UCO"
+
+msgid "Inspección Unidad"
+msgstr "Inspection Unit"
+
+msgid "Formación e Innovación Docente"
+msgstr "Training and Teaching Innovation"
+
+msgid "Política lingüística"
+msgstr "Language Policy"
+
+msgid "Calidad"
+msgstr "Quality"
+
+msgid "Moodle"
+msgstr "Moodle"
+
+msgid "SIGMA Campus Docente"
+msgstr "SIGMA Teaching Campus"
+
+msgid "E-guiado"
+msgstr "E-guided"
+
+msgid "UCOMUNIDAD"
+msgstr "UCOMMUNITY"
+
+msgid "Sistema de Reserva de Aulas"
+msgstr "Classroom Booking System"
+
+msgid "Portal de Investigación"
+msgstr "Research Portal"
+
+msgid "Proyectos Internacionales"
+msgstr "International Projects"
+
+msgid "Servicio Central de Apoyo a la Investigación"
+msgstr "Central Research Support Service"
+
+msgid "Servicio de Animales de Experimentación"
+msgstr "Experimental Animal Service"
+
+msgid "Unidad de Cultura Científica y de la Innovación"
+msgstr "Unit of Scientific Culture and Innovation"
+
+msgid "Grupos de Investigación"
+msgstr "Research Groups"
+
+msgid "HRS4R"
+msgstr "HRS4R"
+
+msgid "Transferencia"
+msgstr "Transfer"
+
+msgid "Portal de Transferencia"
+msgstr "Transfer Portal"
+
+msgid "Plan Propio de Transferencia Galileo"
+msgstr "Galileo's Own Transfer Plan"
+
+msgid "Oferta Tecnológica"
+msgstr "Technological Offer"
+
+msgid "Documento resumen de oferta tecnológica de la UCO"
+msgstr "Summary document of UCO's technological offer"
+
+msgid "Colaboración con empresas"
+msgstr "Collaboration with Companies"
+
+msgid "Contratos Universidad Empresa"
+msgstr "University-Enterprise Contracts"
+
+msgid "Proyectos Colaborativos"
+msgstr "Collaborative Projects"
+
+msgid "Cátedras Universidad-Empresas"
+msgstr "University-Enterprise Chairs"
+
+msgid "¿Quién es quién en tareas de transferencia?"
+msgstr "Who's who in transfer tasks?"
+
+msgid "Entrevistas a grupos de investigación de la UCO"
+msgstr "Interviews with UCO Research Groups"
+
+msgid "Vídeos de investigadores relacionados con el área de la Biotecnología"
+msgstr "Videos of Researchers related to the Biotechnology Area"
+
+msgid "Servicios y vida universitaria"
+msgstr "Services and University Life"
+
+msgid "Tienda UCO online"
+msgstr "UCO Online Store"
+
+msgid "Alojamiento"
+msgstr "Accommodation"
+
+msgid "Archivo Registro y Administración Electrónica"
+msgstr "Electronic Registry and Administration Archive"
+
+msgid "Área de Cooperación y Solidaridad"
+msgstr "Area of Cooperation and Solidarity"
+
+msgid "Gestión Económica"
+msgstr "Financial Management"
+
+msgid "Área de Inclusión"
+msgstr "Inclusion Area"
+
+msgid "Biblioteca"
+msgstr "Library"
+
+msgid "Contratación y Patrimonio"
+msgstr "Contracting and Heritage"
+
+msgid "UCOCultura"
+msgstr "UCOCulture"
+
+msgid "Deportes"
+msgstr "Sports"
+
+msgid "Gabinete de Comunicación"
+msgstr "Communication Office"
+
+msgid "UCOidiomas"
+msgstr "UCOLanguages"
+
+msgid "Igualdad"
+msgstr "Equality"
+
+msgid "Ofertas Comunidad Universitaria"
+msgstr "Offers for the University Community"
+
+msgid "Otras webs y blogs"
+msgstr "Other Websites and Blogs"
+
+msgid "Prácticas y empleo"
+msgstr "Internships and Employment"
+
+msgid "Promoción de la Salud"
+msgstr "Health Promotion"
+
+msgid "Protocolo"
+msgstr "Protocol"
+
+msgid "Publicaciones"
+msgstr "Publications"
+
+msgid "Secretaría Virtual"
+msgstr "Virtual Secretariat"
+
+msgid "Servicio de Control Interno"
+msgstr "Internal Control Service"
+
+msgid "Servicio de Informática"
+msgstr "IT Service"
+
+msgid "Servicio de Prevención y Protección"
+msgstr "Prevention and Protection Service"
+
+msgid "Prevención de Riesgos y Protección Radiológica"
+msgstr "Risk Prevention and Radiological Protection"
+
+msgid "Protección Ambiental"
+msgstr "Environmental Protection"
+
+msgid "UCOdigital"
+msgstr "UCOdigital"
+
+msgid "UCOMPRAS"
+msgstr "UCOMPRAS"
+
+msgid "Unidad de Apoyo Tecnológico a Centros, Departamentos y Servicios"
+msgstr "Technology Support Unit for Centers, Departments, and Services"
+
+msgid "Unidad de Atención Psicológica"
+msgstr "Psychological Care Unit"
+
+msgid "Unidad de Servicios Generales"
+msgstr "General Services Unit"
+
+msgid "Unidad Técnica"
+msgstr "Technical Unit"
+
+msgid "Internacional"
+msgstr "International"
+
+msgid "Programas de movilidad"
+msgstr "Mobility Programs"
+
+msgid "Contacto e información para extranjeros"
+msgstr "Contact and information for foreigners"
+
+msgid "Convenios Internacionales"
+msgstr "International Agreements"
+
+msgid "Noticias"
+msgstr "News"
+
+msgid "Mapa Web"
+msgstr "Site Map"
+
+msgid "Accesibilidad"
+msgstr "Accessibility"
+
+msgid "Contacto"
+msgstr "Contact"
+
+msgid "Buscar Personas"
+msgstr "Search People"
+
+msgid "Correo"
+msgstr "Mail"
+
+msgid "Sistema de Integridad UCO"
+msgstr "UCO Integrity System"
+
+msgid "Protección de Datos"
+msgstr "Data Protection"
+
+msgid "Cómo llegar"
+msgstr "How to get"
+
+msgid "Docencia"
+msgstr "Teaching"
+
+msgid "Investigación"
+msgstr "Investigation"
+
+msgid "Unidad de Inspección"
+msgstr "Inspection Unit"
+
+msgid "Inicio"
+msgstr "Start"
+
+msgid "Vida Académica"
+msgstr "Academic Life"
+
+msgid "Ciencia"
+msgstr "Science"
+
+msgid "Institucional"
+msgstr "Institutional"
+
+msgid "Becas y Empleo"
+msgstr "Scholarships and Employment"
+
+msgid "Emprendimiento"
+msgstr "Entrepreneurship"
+
+msgid "Cultura"
+msgstr "Culture"
+
+msgid "INFORMACIÓN ADICIONAL"
+msgstr "ADITIONAL INFORMATION"
+
+msgid "Vida Universitaria"
+msgstr "University Life"
+
+msgid "Modificado por última vez en"
+msgstr "Last modified on"
+
+msgid "Comparte en"
+msgstr "Share on"
+
+msgid "Publicado en"
+msgstr "Published in"
+
+msgid "Etiquetado como"
+msgstr "Labeled as"
+
+msgid "Artículos relacionados (por etiqueta)"
+msgstr "Related articles (by tag)"
+
+msgid "Más en esta categoría:"
+msgstr "More in this category:"
+
+msgid "Volver arriba"
+msgstr "Go back up"
+
+msgid "SERVICIOS Y RECURSOS COMUNES DE LA UNIVERSIDAD DE CÓRDOBA"
+msgstr "COMMON SERVICES AND RESOURCES OF THE UNIVERSITY OF CÓRDOBA"
+
+msgid "CONVOCATORIAS ABIERTAS"
+msgstr "OPEN CALLS"
+
+msgid "» III Congreso Internacional ¡Nosotros Proponemos! Ciudadanía, sostenibilidad e innovación en la educación (Ciudad Real, 17 - 20 abril de 2024)"
+msgstr "» III International Congress We Propose! Citizenship, sustainability and innovation in education (Ciudad Real, April 17 - 20, 2024)"
+
+msgid "Más información en la web ..."
+msgstr "More information on the webpage ..."
+
+msgid "» Leer más..."
+msgstr "» Read more..."
+
+msgid "» 8ª Jornadas Red Española de Compostaje (2 -4 octubre de 2024)"
+msgstr "» 8th Spanish Composting Network Conference (October 2-4, 2024)"
+
+msgid "Información general de las jornadas en"
+msgstr "General information about the conferences"
+
+msgid "Inscripciones"
+msgstr "Registrations"
+
+msgid "» Área de Cooperación y Solidaridad: iniciativa para ofrecer a la comunidad universitaria de la UCO la posibilidad de solicitar ayuda económica para la organización de acciones de formación y/o sensibilización vinculadas a la situación derivada del conflict"
+msgstr "» Cooperation and Solidarity Area: initiative to offer the UCO university community the possibility of requesting financial aid for the organization of training and/or awareness actions linked to the situation derived from the conflict"
+
+msgid "FORMULARIO"
+msgstr "FORM"
+
+msgid "Ayudas financiadas por las subvenciones del Ministerio..."
+msgstr "Aid financed by grants from the Ministry..."
+
+msgid "INFORMACIÓN EN LÍNEA"
+msgstr "ONLINE INFORMATION"
+
+msgid "BOLETÍN DE NOVEDADES"
+msgstr "NEWSLETTER"
+
+msgid "CONGRESOS"
+msgstr "CONFERENCES"
+
+msgid "LA UCO EN LOS MEDIOS"
+msgstr "THE UCO IN THE MEDIA"
+
+msgid "IMAGEN CORPORATIVA"
+msgstr "CORPORATE IMAGE"
+
+msgid "ENLACES"
+msgstr "LINKS"
+
+msgid "SUSCRÍBETE A NOVEDADES"
+msgstr "SUBSCRIBE TO NEWS"
+
+msgid "HEMEROTECA"
+msgstr "NEWSPAPER LIBRARY"
+
+msgid "GALERÍA DE IMÁGENES"
+msgstr "IMAGE GALLERY"
+
+msgid "DE INTERÉS"
+msgstr "OF INTEREST"
+
+msgid "CARTA DE SERVICIOS"
+msgstr "LETTER OF SERVICES"
+
+msgid "QUIENES SOMOS"
+msgstr "ABOUT US"
+
+msgid "BUZÓN DE QUEJAS, SUGERENCIAS Y FELICITACIONES"
+msgstr "COMPLAINTS, SUGGESTIONS AND CONGRATULATIONS MAILBOX"
+
+msgid "CONSULTAS SOBRE ACCESIBILIDAD"
+msgstr "INQUIRIES ON ACCESSIBILITY"
+
+msgid "Para hacer una propuesta es preciso rellenar el siguiente"
+msgstr "To make a proposal you must fill out the following form"
+
+msgid "Resultados de la búsqueda"
+msgstr "Search results"
+
+msgid "Noticias filtradas por fecha"
+msgstr "News filtered by date"
+
