@@ -66,9 +66,9 @@
         console.log(JSON.stringify(calendarLinks[date]))
         // Redirigir a la nueva página
         if (idioma == 'es') {
-            window.location.href = SITEURL + '/noticiasFiltradas.html';
+            window.location.href = SITEURL + '/noticiasfiltradas.html';
         } else {
-            window.location.href = SITEURL +'/en/noticiasFiltradas-en.html';
+            window.location.href = SITEURL +'/en/noticiasfiltradas-en.html';
         }
       });
     });
