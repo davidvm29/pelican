@@ -59,7 +59,7 @@ function performSearch() {
             var li = document.createElement('li');
             if (item && item.url) {
                 var link = document.createElement('a');
-                link.href = item.url;
+                link.href = SITEURL+item.url;
                 link.textContent = item.title;
                 li.appendChild(link);
             } else if (item) {
