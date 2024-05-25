@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 listItem.textContent = result.title;
                 // Enlazar el resultado a su URL correspondiente
                 var link = document.createElement('a');
+                console.log(SITEURL)
                 link.href = SITEURL + result.url;
                 console.log(link.href)
                 link.appendChild(listItem);
