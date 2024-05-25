@@ -163,7 +163,7 @@ function buscarYRedirigir(idioma) {
   var results = obtenerResultadosDeBusqueda(searchTerm);
   localStorage.setItem('searchResults', JSON.stringify(results));
   // Redireccionar a la página de búsqueda
-  window.location.href = idioma === "es" ? "/resultadosBusqueda.html" : "/en/resultadosBusqueda-en.html";
+  window.location.href = idioma === "es" ? SITEURL+"/resultadosBusqueda.html" : SITEURL+"/resultadosBusqueda-en.html";
 }
 
 function obtenerResultadosDeBusqueda(searchTerm) {
