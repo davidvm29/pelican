@@ -68,7 +68,7 @@
         if (idioma == 'es') {
             window.location.href = SITEURL + '/noticiasfiltradas.html';
         } else {
-            window.location.href = SITEURL +'/en/noticiasfiltradas-en.html';
+            window.location.href = SITEURL +'/noticiasfiltradas-en.html';
         }
       });
     });
