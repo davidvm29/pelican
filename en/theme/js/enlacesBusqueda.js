@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Enlazar el resultado a su URL correspondiente
                 var link = document.createElement('a');
                 link.href = SITEURL + result.url;
+                console.log(link.href)
                 link.appendChild(listItem);
                 resultsContainer.appendChild(link);
             });
