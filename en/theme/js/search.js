@@ -2,7 +2,7 @@ let data;
 let idx;
 document.addEventListener('DOMContentLoaded', function() {
     if (idioma === 'es'){
-        fetch('/theme/json/search_es.json')
+        fetch(SITEURL +'/theme/json/search_es.json')
         .then(response => response.json())
         .then(jsonData => {
             data = jsonData;
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
     } else {
-        fetch('/theme/json/search_en.json')
+        fetch(SITEURL+'/theme/json/search_en.json')
         .then(response => response.json())
         .then(jsonData => {
             data = jsonData;
