@@ -3,6 +3,7 @@
   //var calendarLinks = JSON.parse('{{ calendar_links|tojson }}'.replace(/&quot;/g, '"'));
   var currentYear = new Date().getFullYear();
   var currentMonth = new Date().getMonth() + 1; // JavaScript cuenta los meses desde 0
+  
 
   // Función para actualizar el calendario y marcar el día actual
   function updateCalendar(year, month) {
@@ -65,9 +66,9 @@
         console.log(JSON.stringify(calendarLinks[date]))
         // Redirigir a la nueva página
         if (idioma == 'es') {
-            window.location.href = '/noticiasFiltradas.html';
+            window.location.href = SITEURL + '/noticiasFiltradas.html';
         } else {
-            window.location.href = '/en/noticiasFiltradas-en.html';
+            window.location.href = SITEURL +'/en/noticiasFiltradas-en.html';
         }
       });
     });
