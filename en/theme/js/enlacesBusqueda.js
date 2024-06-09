@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (idioma === "en"){
                     link.href = SITEURL + result.url.replace('.html','.html');
                 } else {
-                    link.href = SITEURL + '/en' + result.url.replace('.html','-en.html');
+                    link.href = SITEURL + '/en' + result.url
                 }
                 link.appendChild(listItem);
                 resultsContainer.appendChild(link);
