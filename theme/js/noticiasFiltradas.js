@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Extraer y parsear los datos de sessionStorage
   const newsData = JSON.parse(sessionStorage.getItem('newsForDate'));
   
-  let htmlContent = '';
+  let htmlContent = '';//
   if (newsData && newsData.length) {
     const newsContainer = document.getElementById('newsContainer') || document.createElement('div');
     if (!document.getElementById('newsContainer')) {
