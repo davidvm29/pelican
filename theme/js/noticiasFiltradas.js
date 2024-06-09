@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
       else{
         htmlContent += '<h2 class="titulofiltradas"><a href="' + '/pelican/en'+link + '">' + titulo + '</a></h2>';
       }
-      htmlContent += '<h2 class="titulofiltradas"><a href="' + link + '">' + titulo + '</a></h2>';
+      // htmlContent += '<h2 class="titulofiltradas"><a href="' + link + '">' + titulo + '</a></h2>';
       htmlContent += '<div class="genericItemCategory">';
       if (idioma === "es") {
         htmlContent += '<span>Publicado en</span>';
