@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Añadir el contenido HTML para cada noticia
       htmlContent += '<div class="itemContainer">';
       htmlContent += '<span>' + fecha + '</span>';
-      htmlContent += '<h2 class="titulofiltradas"><a href="' + SITEURL +link + '">' + titulo + '</a></h2>';
+        htmlContent += '<h2 class="titulofiltradas"><a href="' + '/pelican/'+link + '">' + titulo + '</a></h2>';
       
       // htmlContent += '<h2 class="titulofiltradas"><a href="' + link + '">' + titulo + '</a></h2>';
       htmlContent += '<div class="genericItemCategory">';
