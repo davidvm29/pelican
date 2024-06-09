@@ -514,32 +514,32 @@ body {
     cursor: pointer;
   }
   .icon-facebook{
-    background-image: url('/theme/images/asset32.png');
+    background-image: url('/pelican/theme/images/asset32.png');
   }
   
   .icon-twitter{
-   background-image: url('/theme/images/asset\ 33.png');
+   background-image: url('/pelican/theme/images/asset\ 33.png');
   }
   
   .icon-linkedin{
-    background-image: url('/theme/images/asset\ 34.png');
+    background-image: url('/pelican/theme/images/asset\ 34.png');
   }
   .icon-rss{
-    background-image: url('/theme/images/asset\ 35.png');
+    background-image: url('/pelican/theme/images/asset\ 35.png');
   }
   
   .icon-flickr{
-    background-image: url('/theme/images/asset\ 36.png');
+    background-image: url('/pelican/theme/images/asset\ 36.png');
   }
   
   .icon-youtube{
-    background-image: url('/theme/images/asset\ 37.png');
+    background-image: url('/pelican/theme/images/asset\ 37.png');
   }
   .icon-instagram{
-    background-image: url('/theme/images/asset\ 38.png');
+    background-image: url('/pelican/theme/images/asset\ 38.png');
   }
   .icon-tiktok{
-    background-image: url('/theme/images/asset\ 39.png');
+    background-image: url('/pelican/theme/images/asset\ 39.png');
   }
   
   /*CSS para el menu*/
