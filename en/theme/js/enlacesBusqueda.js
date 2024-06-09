@@ -23,11 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 listItem.textContent = result.title;
                 // Enlazar el resultado a su URL correspondiente
                 var link = document.createElement('a');
-                if (idioma === "en"){
-                    link.href = SITEURL + result.url.replace('.html','.html');
-                } else {
-                    link.href = SITEURL + '/en' + result.url
-                }
+                    link.href = SITEURL + result.url;
                 link.appendChild(listItem);
                 resultsContainer.appendChild(link);
             });
