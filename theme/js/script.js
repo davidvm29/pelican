@@ -163,7 +163,7 @@ function buscarYRedirigir(idioma) {
   var results = obtenerResultadosDeBusqueda(searchTerm);
   localStorage.setItem('searchResults', JSON.stringify(results));
   // Redireccionar a la página de búsqueda
-  window.location.href = idioma === "es" ? "/resultadosbusqueda.html" : "/resultadosbusqueda-en.html";
+  window.location.href = idioma === "es" ? "/pelican/resultadosbusqueda.html" : "/pelican/en/resultadosbusqueda-en.html";
 }
 
 function obtenerResultadosDeBusqueda(searchTerm) {
