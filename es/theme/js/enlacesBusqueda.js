@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Enlazar el resultado a su URL correspondiente
                 var link = document.createElement('a');
                 if (idioma === "en"){
-                    link.href = SITEURL + result.url + '-en';
+                    link.href = SITEURL + result.url.replace();
                 } else {
                     link.href = SITEURL + result.url;
                 }
