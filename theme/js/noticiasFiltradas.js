@@ -27,8 +27,12 @@ document.addEventListener('DOMContentLoaded', function() {
       // Añadir el contenido HTML para cada noticia
       htmlContent += '<div class="itemContainer">';
       htmlContent += '<span>' + fecha + '</span>';
+      if (idioma ==="es"){
         htmlContent += '<h2 class="titulofiltradas"><a href="' + '/pelican/'+link + '">' + titulo + '</a></h2>';
-      
+      }
+      else{
+        htmlContent += '<h2 class="titulofiltradas"><a href="' + '/pelican/'+link + '">' + titulo + '</a></h2>';
+      }
       // htmlContent += '<h2 class="titulofiltradas"><a href="' + link + '">' + titulo + '</a></h2>';
       htmlContent += '<div class="genericItemCategory">';
       if (idioma === "es") {
