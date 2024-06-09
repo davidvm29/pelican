@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (idioma === "es") {
         htmlContent += '<span>Publicado en</span>';
       } else {
-        htmlContent += '<span>Published in</span>';
+        htmlContent += '<span>Published in</span>';//
       }
       htmlContent += '<a id="lugar" href="#">' + lugar + '</a>';
       if (idioma === "es") {
