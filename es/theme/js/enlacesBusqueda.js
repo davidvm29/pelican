@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Enlazar el resultado a su URL correspondiente
                 var link = document.createElement('a');
                 if (idioma === "en"){
-                    link.href = SITEURL + result.url.replace();
+                    link.href = SITEURL + result.url.replace('-en.html','.html');
                 } else {
-                    link.href = SITEURL + result.url;
+                    link.href = SITEURL + result.url.replace('.html','-en.html');
                 }
                 link.appendChild(listItem);
                 resultsContainer.appendChild(link);
