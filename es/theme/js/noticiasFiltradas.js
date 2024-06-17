@@ -42,9 +42,9 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       htmlContent += '<a id="lugar" href="#">' + lugar + '</a>';
       if (idioma === "es") {
-        htmlContent += '<a href="' + '/pelican/'+ link + '">&nbsp;Leer más...</a>';
+        htmlContent += '<a href="' + PELICAN + link + '">&nbsp;Leer más...</a>';
       } else {
-        htmlContent += '<a href="' + '/pelican/'+ link + '">&nbsp;Read more...</a>';
+        htmlContent += '<a href="' + PELICAN + link + '">&nbsp;Read more...</a>';
       }
       htmlContent += '</div>';
       htmlContent += '</div>';
